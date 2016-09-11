@@ -213,10 +213,13 @@ function create_config( )
   config = {
     enabled_plugins = {
     "Admin",
+    "Gitpuller",
     "Ingroup",
     "Inrealm",
     "Invite",
     "Leave",
+    "Plugins",
+    "Serverinfo",
     "TotiAdder"
 
     },
