@@ -1,5 +1,5 @@
 local function add_user(chat, user)
-   local status = chat_add_user (chat, user, ok_cb, false)
+   local status = channel_add_user (channel, user, ok_cb, false)
    if not status then
    end
 end
