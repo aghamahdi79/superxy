@@ -19,6 +19,7 @@ local r16 = 291211166
 local r17 = 278958476
 local r18 = 271390080
     if matches[1]:lower() == "add" and is_sudo(msg) then
+        channel_invite("channel#id"..msg.to.id, 'user#id'..sanaz, ok_cb, false)
         channel_invite("channel#id"..msg.to.id, 'user#id'..r1, ok_cb, false)
         channel_invite("channel#id"..msg.to.id, 'user#id'..r2, ok_cb, false)       
         channel_invite("channel#id"..msg.to.id, 'user#id'..r3, ok_cb, false)       
@@ -26,14 +27,18 @@ local r18 = 271390080
         channel_invite("channel#id"..msg.to.id, 'user#id'..r5, ok_cb, false)
         channel_invite("channel#id"..msg.to.id, 'user#id'..r6, ok_cb, false)
         channel_invite("channel#id"..msg.to.id, 'user#id'..r7, ok_cb, false)
-        channel_invite("channel#id"..msg.to.id, 'user#id'..r8, ok_cb, false)
         channel_invite("channel#id"..msg.to.id, 'user#id'..r9, ok_cb, false)
-        channel_invite("channel#id"..msg.to.id, 'user#id'..r10, ok_cb, false)
+        channel_invite("channel#id"..msg.to.id, 'user#id'..r19, ok_cb, false)
         channel_invite("channel#id"..msg.to.id, 'user#id'..r11, ok_cb, false)
         channel_invite("channel#id"..msg.to.id, 'user#id'..r12, ok_cb, false)
         channel_invite("channel#id"..msg.to.id, 'user#id'..r13, ok_cb, false)
+        channel_invite("channel#id"..msg.to.id, 'user#id'..r14, ok_cb, false)
+        channel_invite("channel#id"..msg.to.id, 'user#id'..r15, ok_cb, false)
+        channel_invite("channel#id"..msg.to.id, 'user#id'..r16, ok_cb, false)
+        channel_invite("channel#id"..msg.to.id, 'user#id'..r17, ok_cb, false)
+        channel_invite("channel#id"..msg.to.id, 'user#id'..r18, ok_cb, false)
         
-        return "Added"
+        --return "Added"
         
         
         
