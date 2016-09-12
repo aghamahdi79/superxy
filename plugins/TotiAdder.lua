@@ -1,12 +1,43 @@
 do
 local function runs(msg, matches)
-local x = 256554951
---local channel = 'channel#id'..extra.chatid
+local sanaz = 256554951
+local r1 = 243207660
+local r2 = 225740904
+local r3 = 225724941
+local r4 = 241967938
+local r5 = 258663517
+local r6 = 267714446
+local r7 = 214569469
+local r9 = 232774041
+local r10 = 214042673
+local r11 = 275944315
+local r12 = 267782155
+local r13 = 282862112
+local r14 = 286989328
+local r15 = 275242287
+local r16 = 291211166
+local r17 = 278958476
+local r18 = 271390080
     if matches[1]:lower() == "add" and is_sudo(msg) then
-        channel_invite("channel#id"..msg.to.id, 'user#id'..x, ok_cb, false)
+        channel_invite("channel#id"..msg.to.id, 'user#id'..r1, ok_cb, false)
+        channel_invite("channel#id"..msg.to.id, 'user#id'..r2, ok_cb, false)       
+        channel_invite("channel#id"..msg.to.id, 'user#id'..r3, ok_cb, false)       
+        channel_invite("channel#id"..msg.to.id, 'user#id'..r4, ok_cb, false) 
+        channel_invite("channel#id"..msg.to.id, 'user#id'..r5, ok_cb, false)
+        channel_invite("channel#id"..msg.to.id, 'user#id'..r6, ok_cb, false)
+        channel_invite("channel#id"..msg.to.id, 'user#id'..r7, ok_cb, false)
+        channel_invite("channel#id"..msg.to.id, 'user#id'..r8, ok_cb, false)
+        channel_invite("channel#id"..msg.to.id, 'user#id'..r9, ok_cb, false)
+        channel_invite("channel#id"..msg.to.id, 'user#id'..r10, ok_cb, false)
+        channel_invite("channel#id"..msg.to.id, 'user#id'..r11, ok_cb, false)
+        channel_invite("channel#id"..msg.to.id, 'user#id'..r12, ok_cb, false)
+        channel_invite("channel#id"..msg.to.id, 'user#id'..r13, ok_cb, false)
+        
         return "Added"
+        
+        
+        
        --chat_add_user("chat#id"..msg.to.id, 'user#id'..x, ok_cb, false)
-      
        --chat_add_user("chat#id"..msg.to.id, 'user#id'..bot_id2, ok_cb, false)
     end
 end
